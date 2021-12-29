@@ -1,56 +1,41 @@
 body {
-    font-family: 'Roboto Mono',monospace;
-    min-height: 400px;
-    background-size: 100%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-  }
-  
-  .page-title {
-    color:#C1E041;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color:#F79E54;
-    margin-top: 5px;
-  }
-  
-  .formulario {
-    padding: 20px;
-    marging:10px;
-    background:gray;
-  }
-  
-  #botao {
-    padding:25px 50px;
-    cursor:pointer;
-  }
-  #form1 {
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-  }
-  #form2 {
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-  }
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ccab7f;
+}
+
+.container {
+  display: block;
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  border: solid rgb(0, 4, 10) 2px;
+  width: 100%;
+}
+.formulario input {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid rgb(8, 19, 29);
+  border-radius: 4px;
+  height: 25px;
+  width: 100px;
+  font-size: 40px;
+}
+
+
+.resultado{
+  display: block;
+  text-align: center;
+  size: 20px;
+  color: darkgoldenrod;
+}
+
+button {
+  transition-duration: 0.4s;
+  width: 10em;
+  height: 4em;
+}
+
+button:hover {
+  background-color: #20221b;
+  color: white;
+}
